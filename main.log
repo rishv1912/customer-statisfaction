@@ -1,0 +1,150 @@
+[1;35mLoading service daemon configuration from /Users/sanjayprajapati/Library/Application Support/zenml/local_stores/ecfa3787-9c15-4498-bca3-d2fbf2264cd4/717579c9-aa36-47c7-9099-c16fa491306c/service.json[0m
+[31m╭─[0m[31m────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────[0m[31m─╮[0m
+[31m│[0m [2;33m/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framew[0m [31m│[0m
+[31m│[0m [2;33mork/Versions/3.9/lib/python3.9/[0m[1;33mrunpy.py[0m:[94m197[0m in [92m_run_module_as_main[0m           [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m194 [0m[2m│   [0mmain_globals = sys.modules[[33m"[0m[33m__main__[0m[33m"[0m].[91m__dict__[0m                    [31m│[0m
+[31m│[0m   [2m195 [0m[2m│   [0m[94mif[0m alter_argv:                                                     [31m│[0m
+[31m│[0m   [2m196 [0m[2m│   │   [0msys.argv[[94m0[0m] = mod_spec.origin                                  [31m│[0m
+[31m│[0m [31m❱ [0m197 [2m│   [0m[94mreturn[0m _run_code(code, main_globals, [94mNone[0m,                         [31m│[0m
+[31m│[0m   [2m198 [0m[2m│   │   │   │   │    [0m[33m"[0m[33m__main__[0m[33m"[0m, mod_spec)                             [31m│[0m
+[31m│[0m   [2m199 [0m                                                                       [31m│[0m
+[31m│[0m   [2m200 [0m[94mdef[0m [92mrun_module[0m(mod_name, init_globals=[94mNone[0m,                            [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framew[0m [31m│[0m
+[31m│[0m [2;33mork/Versions/3.9/lib/python3.9/[0m[1;33mrunpy.py[0m:[94m87[0m in [92m_run_code[0m                      [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m 84 [0m[2m│   │   │   │   │      [0m__loader__ = loader,                            [31m│[0m
+[31m│[0m   [2m 85 [0m[2m│   │   │   │   │      [0m__package__ = pkg_name,                         [31m│[0m
+[31m│[0m   [2m 86 [0m[2m│   │   │   │   │      [0m__spec__ = mod_spec)                            [31m│[0m
+[31m│[0m [31m❱ [0m 87 [2m│   [0mexec(code, run_globals)                                            [31m│[0m
+[31m│[0m   [2m 88 [0m[2m│   [0m[94mreturn[0m run_globals                                                 [31m│[0m
+[31m│[0m   [2m 89 [0m                                                                       [31m│[0m
+[31m│[0m   [2m 90 [0m[94mdef[0m [92m_run_module_code[0m(code, init_globals=[94mNone[0m,                          [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/services/local/[0m[1;33mlocal_daemon_entrypoint.py[0m:[94m96[0m in      [31m│[0m
+[31m│[0m [92m<module>[0m                                                                     [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m93 [0m                                                                        [31m│[0m
+[31m│[0m   [2m94 [0m                                                                        [31m│[0m
+[31m│[0m   [2m95 [0m[94mif[0m [91m__name__[0m == [33m"[0m[33m__main__[0m[33m"[0m:                                              [31m│[0m
+[31m│[0m [31m❱ [0m96 [2m│   [0mrun()                                                               [31m│[0m
+[31m│[0m   [2m97 [0m                                                                        [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/click/[0m[1;33mcore.py[0m:[94m1130[0m in [92m__call__[0m                             [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m1127 [0m[2m│   [0m                                                                  [31m│[0m
+[31m│[0m   [2m1128 [0m[2m│   [0m[94mdef[0m [92m__call__[0m([96mself[0m, *args: t.Any, **kwargs: t.Any) -> t.Any:       [31m│[0m
+[31m│[0m   [2m1129 [0m[2;90m│   │   [0m[33m"""Alias for :meth:`main`."""[0m                                 [31m│[0m
+[31m│[0m [31m❱ [0m1130 [2m│   │   [0m[94mreturn[0m [96mself[0m.main(*args, **kwargs)                             [31m│[0m
+[31m│[0m   [2m1131 [0m                                                                      [31m│[0m
+[31m│[0m   [2m1132 [0m                                                                      [31m│[0m
+[31m│[0m   [2m1133 [0m[94mclass[0m [4;92mCommand[0m(BaseCommand):                                           [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/click/[0m[1;33mcore.py[0m:[94m1055[0m in [92mmain[0m                                 [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m1052 [0m[2m│   │   [0m[94mtry[0m:                                                          [31m│[0m
+[31m│[0m   [2m1053 [0m[2m│   │   │   [0m[94mtry[0m:                                                      [31m│[0m
+[31m│[0m   [2m1054 [0m[2m│   │   │   │   [0m[94mwith[0m [96mself[0m.make_context(prog_name, args, **extra) [94mas[0m c [31m│[0m
+[31m│[0m [31m❱ [0m1055 [2m│   │   │   │   │   [0mrv = [96mself[0m.invoke(ctx)                             [31m│[0m
+[31m│[0m   [2m1056 [0m[2m│   │   │   │   │   [0m[94mif[0m [95mnot[0m standalone_mode:                           [31m│[0m
+[31m│[0m   [2m1057 [0m[2m│   │   │   │   │   │   [0m[94mreturn[0m rv                                     [31m│[0m
+[31m│[0m   [2m1058 [0m[2m│   │   │   │   │   [0m[2m# it's not safe to `ctx.exit(rv)` here![0m           [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/click/[0m[1;33mcore.py[0m:[94m1404[0m in [92minvoke[0m                               [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m1401 [0m[2m│   │   │   [0mecho(style(message, fg=[33m"[0m[33mred[0m[33m"[0m), err=[94mTrue[0m)                  [31m│[0m
+[31m│[0m   [2m1402 [0m[2m│   │   [0m                                                              [31m│[0m
+[31m│[0m   [2m1403 [0m[2m│   │   [0m[94mif[0m [96mself[0m.callback [95mis[0m [95mnot[0m [94mNone[0m:                                 [31m│[0m
+[31m│[0m [31m❱ [0m1404 [2m│   │   │   [0m[94mreturn[0m ctx.invoke([96mself[0m.callback, **ctx.params)            [31m│[0m
+[31m│[0m   [2m1405 [0m[2m│   [0m                                                                  [31m│[0m
+[31m│[0m   [2m1406 [0m[2m│   [0m[94mdef[0m [92mshell_complete[0m([96mself[0m, ctx: Context, incomplete: [96mstr[0m) -> t.List [31m│[0m
+[31m│[0m   [2m1407 [0m[2;90m│   │   [0m[33m"""Return a list of completions for the incomplete value. Loo[0m [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/click/[0m[1;33mcore.py[0m:[94m760[0m in [92minvoke[0m                                [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m 757 [0m[2m│   │   [0m                                                              [31m│[0m
+[31m│[0m   [2m 758 [0m[2m│   │   [0m[94mwith[0m augment_usage_errors(__self):                            [31m│[0m
+[31m│[0m   [2m 759 [0m[2m│   │   │   [0m[94mwith[0m ctx:                                                 [31m│[0m
+[31m│[0m [31m❱ [0m 760 [2m│   │   │   │   [0m[94mreturn[0m __callback(*args, **kwargs)                    [31m│[0m
+[31m│[0m   [2m 761 [0m[2m│   [0m                                                                  [31m│[0m
+[31m│[0m   [2m 762 [0m[2m│   [0m[94mdef[0m [92mforward[0m(                                                      [31m│[0m
+[31m│[0m   [2m 763 [0m[2m│   │   [0m__self, __cmd: [33m"[0m[33mCommand[0m[33m"[0m, *args: t.Any, **kwargs: t.Any  [2m# no[0m [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/services/local/[0m[1;33mlocal_daemon_entrypoint.py[0m:[94m92[0m in [92mrun[0m  [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m89 [0m[2m│   │   │   [0m)                                                           [31m│[0m
+[31m│[0m   [2m90 [0m[2m│   │   [0mservice.run()                                                   [31m│[0m
+[31m│[0m   [2m91 [0m[2m│   [0m                                                                    [31m│[0m
+[31m│[0m [31m❱ [0m92 [2m│   [0mlaunch_service(config_file)                                         [31m│[0m
+[31m│[0m   [2m93 [0m                                                                        [31m│[0m
+[31m│[0m   [2m94 [0m                                                                        [31m│[0m
+[31m│[0m   [2m95 [0m[94mif[0m [91m__name__[0m == [33m"[0m[33m__main__[0m[33m"[0m:                                              [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/utils/[0m[1;33mdaemon.py[0m:[94m99[0m in [92mdaemon[0m                         [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m 96 [0m[2m│   │   │   │   │   [0m[33m"[0m[33mDaemon functionality is currently not supported o[0m [31m│[0m
+[31m│[0m   [2m 97 [0m[2m│   │   │   │   [0m)                                                      [31m│[0m
+[31m│[0m   [2m 98 [0m[2m│   │   │   [0m[94melse[0m:                                                      [31m│[0m
+[31m│[0m [31m❱ [0m 99 [2m│   │   │   │   [0mrun_as_daemon(                                         [31m│[0m
+[31m│[0m   [2m100 [0m[2m│   │   │   │   │   [0m_func,                                             [31m│[0m
+[31m│[0m   [2m101 [0m[2m│   │   │   │   │   [0mlog_file=log_file,                                 [31m│[0m
+[31m│[0m   [2m102 [0m[2m│   │   │   │   │   [0mpid_file=pid_file,                                 [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/utils/[0m[1;33mdaemon.py[0m:[94m289[0m in [92mrun_as_daemon[0m                 [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m286 [0m[2m│   │   [0matexit.register(cleanup)                                       [31m│[0m
+[31m│[0m   [2m287 [0m[2m│   │   [0m                                                               [31m│[0m
+[31m│[0m   [2m288 [0m[2m│   │   [0m[2m# finally run the actual daemon code[0m                           [31m│[0m
+[31m│[0m [31m❱ [0m289 [2m│   │   [0mdaemon_function(*args, **kwargs)                               [31m│[0m
+[31m│[0m   [2m290 [0m[2m│   │   [0msys.exit([94m0[0m)                                                    [31m│[0m
+[31m│[0m   [2m291 [0m[2m│   [0m                                                                   [31m│[0m
+[31m│[0m   [2m292 [0m[2m│   [0m[94mdef[0m [92mstop_daemon[0m(pid_file: [96mstr[0m) -> [94mNone[0m:                            [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/services/local/[0m[1;33mlocal_daemon_entrypoint.py[0m:[94m84[0m in      [31m│[0m
+[31m│[0m [92mlaunch_service[0m                                                               [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m81 [0m[2m│   │   [0mintegration_registry.activate_integrations()                    [31m│[0m
+[31m│[0m   [2m82 [0m[2m│   │   [0m                                                                [31m│[0m
+[31m│[0m   [2m83 [0m[2m│   │   [0mlogger.debug([33m"[0m[33mRunning service daemon with configuration:[0m[33m\n[0m[33m [0m[33m%s[0m[33m"[0m, [31m│[0m
+[31m│[0m [31m❱ [0m84 [2m│   │   [0mservice = ServiceRegistry().load_service_from_json(config)      [31m│[0m
+[31m│[0m   [2m85 [0m[2m│   │   [0m[94mif[0m [95mnot[0m [96misinstance[0m(service, LocalDaemonService):                 [31m│[0m
+[31m│[0m   [2m86 [0m[2m│   │   │   [0m[94mraise[0m [96mTypeError[0m(                                            [31m│[0m
+[31m│[0m   [2m87 [0m[2m│   │   │   │   [0m[33mf[0m[33m"[0m[33mExpected service type LocalDaemonService but got [0m[33m"[0m    [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/services/[0m[1;33mservice_registry.py[0m:[94m214[0m in                  [31m│[0m
+[31m│[0m [92mload_service_from_json[0m                                                       [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m211 [0m[2;33m│   │   │   [0m[33mA ZenML service instance.[0m                                  [31m│[0m
+[31m│[0m   [2m212 [0m[2;33m│   │   [0m[33m"""[0m                                                            [31m│[0m
+[31m│[0m   [2m213 [0m[2m│   │   [0mservice_dict = json.loads(json_str)                            [31m│[0m
+[31m│[0m [31m❱ [0m214 [2m│   │   [0m[94mreturn[0m [96mself[0m.load_service_from_dict(service_dict)               [31m│[0m
+[31m│[0m   [2m215 [0m                                                                       [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m [2;33m/Users/sanjayprajapati/Documents/MLops/customer-statisfaction-env/lib/python[0m [31m│[0m
+[31m│[0m [2;33m3.9/site-packages/zenml/services/[0m[1;33mservice_registry.py[0m:[94m193[0m in                  [31m│[0m
+[31m│[0m [92mload_service_from_dict[0m                                                       [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m190 [0m[2m│   │   [0mservice_type = ServiceType.parse_obj(service_type)             [31m│[0m
+[31m│[0m   [2m191 [0m[2m│   │   [0mservice_class = [96mself[0m.get_service_type(service_type)            [31m│[0m
+[31m│[0m   [2m192 [0m[2m│   │   [0m[94mif[0m [95mnot[0m service_class:                                          [31m│[0m
+[31m│[0m [31m❱ [0m193 [2m│   │   │   [0m[94mraise[0m [96mTypeError[0m(                                           [31m│[0m
+[31m│[0m   [2m194 [0m[2m│   │   │   │   [0m[33mf[0m[33m"[0m[33mCannot load service with unregistered service [0m[33m"[0m      [31m│[0m
+[31m│[0m   [2m195 [0m[2m│   │   │   │   [0m[33mf[0m[33m"[0m[33mtype: [0m[33m{[0mservice_type[33m}[0m[33m"[0m                                [31m│[0m
+[31m│[0m   [2m196 [0m[2m│   │   │   [0m)                                                          [31m│[0m
+[31m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+[1;91mTypeError: [0mCannot load service with unregistered service type: 
+[33mtype[0m=[32m'model-serving'[0m [33mflavor[0m=[32m'mlflow'[0m [33mname[0m=[32m'mlflow-deployment'[0m 
+[33mdescription[0m=[32m'MLflow prediction service'[0m
+Cleanup: terminating children processes...
+Cleanup: removing PID file /Users/sanjayprajapati/Library/Application Support/zenml/local_stores/ecfa3787-9c15-4498-bca3-d2fbf2264cd4/717579c9-aa36-47c7-9099-c16fa491306c/service.pid...
